@@ -11,34 +11,33 @@ Often we can retrieve data using a SQL query of by downloading a CSV file.  But 
 
 ### Pre-work
 * Download and install the [Postman app](https://www.getpostman.com/)
-* Read these short introductory articles on APIs and JSON format:
-  * [Intro to APIs: What Are APIs and What Do They Do?](https://www.upwork.com/hiring/development/intro-to-apis-what-is-an-api/)
+* Read this short introductory article on APIs and JSON format:
   * [Web APIs for non-programmers](https://schoolofdata.org/2013/11/18/web-apis-for-non-programmers/)]
-* Read these short introductory articles on the JSON data interchange format
+* Read this short introductory article on the JSON data interchange format
   * [What is JSON? JavaScript Object Notation explained](https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html)
-  * [What is JSON? - A Development Tip For Newbies](https://blog.cloudstitch.com/what-is-json-8c0d983dbe7b)
 
 ### Fetch data through APIs
 
 **Discuss APIs  -  15 min**
-* [Slides](https://docs.google.com/presentation/d/1d1-nFVnh8TehoxrZDhL99aHxlIClQ63aqsZkNA4UEkI/edit?usp=sharing)
+* [Slides](https://docs.google.com/presentation/d/1mYOwpgXKaQly3RL-r0N8LAEMdLKXTXA8fRrq6JTCvQ8/edit?usp=sharing)
 * Discuss these topics
   * If a site enables programmatic retrieval they typically do it though APIs
   * Anatomy of an API call
-  * Data returned will be formated as text, typically JSON but sometimes XML format
+  * Data returned will be formatted as text, typically JSON but sometimes XML format
   * APIs vs web scraping
+* Take a look at a list of public APIs at [public-apis.io](https://public-apis.io/)
 
 **Code Along   Retrieve data through an API with Postman  -  20 min**
 * Discuss Postman and curl as two ways to interactively retrieve data
-  * curl is a powerful command line capability that can concievably imitate any request over the web
+  * curl is a powerful command line capability that can conceivably imitate any request over the web
   * Postman is a more recent tool with an interactive UI for creating and delivering requests to an API and retrieving the results  
-* Some site APIs are complex enough that they benefit from using a computer language and some supporting libraries 
+* Some site APIs are complex enough that they benefit from using a computer language and some supporting libraries
   * Ex.  Python + a site's API package
-  * In those cases, Postman or curl will not be sufficient to retrieve all possible data from a site through it's 
+  * In those cases, Postman or curl will not be sufficient to retrieve all possible data from a site through it's
   * But for simpler API's, Postman and curl retrieve what you need
 * Tour the Postman interface
 * Create an API request (call) in Postman
-  * Use the [Open Movie Database  (ODBM)](https://www.mitec.cz/jsonv.html) website API
+  * Use the [Open Movie Database  (ODBM)](http://www.omdbapi.com/) website API
   * Review documentation of the API on page
   * Build some API calls using the interactive API call builder on the site
   * Obtain user key is you don't have one using the menu at the top of the page
@@ -48,13 +47,7 @@ Often we can retrieve data using a SQL query of by downloading a CSV file.  But 
 * Examine data after viewing in a JSON format
   * Use a format tool on a web page or use a local tool such as JSON formatters for Chrome
 
-### !challenge
-
-* type: paragraph
-* id: d4e66695-5050-4173-a1f2-0ff5d5240a5c
-* title: Retrieve data from a website's API
-
-##### !question
+#### Investigate other APIs For further exploration the [Apple Music API](https://developer.apple.com/documentation/applemusicapi) are good ones to investigate.
 
 **Exercise   Retrieve data from a website with an API  -  20 min**
 * You have been asked to provide analysis of US exports over the past few years of years 2016.  Specifically you need to analyze data from 2016-2018.  You have found a good source of data on the Census Bureau's web site.  The site makes the data available through an API.
@@ -68,19 +61,7 @@ Often we can retrieve data using a SQL query of by downloading a CSV file.  But 
 * Examine data in a simple text browser such as Notepad or TextEdit
 * Create a data source in Tableau that UNION ALLs the retrieved files into one data source for 2016-2018
 * Save your Tableau Public workbook
-* Submit a link below to the location of the Tableau Public workbook
 <br>
-
-##### !end-question
-
-##### !placeholder
-
-Submit the link here...
-
-##### !end-placeholder
-
-### !end-challenge
-
 
 **Break  -  5 min**
 
@@ -98,7 +79,7 @@ Submit the link here...
 
 **Code along   View the JSON returned  -  20 min**
 * Reveal the structure of the JSON
-* Find specific values for a unique ID 
+* Find specific values for a unique ID
 
 **Code along   Convert JSON to CSV files  -  10 min**
 * Use a converter on the Web
@@ -114,4 +95,3 @@ Submit the link here...
 
 
 ### Resources
-*
